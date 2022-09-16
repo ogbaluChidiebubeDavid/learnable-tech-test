@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Online Streaming Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='test.css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" integrity="sha256-46r060N2LrChLLb5zowXQ72/iKKNiw/lAmygmHExk/o=" crossorigin="anonymous" />
+</head>
+<body onload="slider()">
+    <div class="banner">
+        <div class="slider">
+            <img src="images/poster1.jpg" alt="background-img" id="slide-img">
+        </div>
+        <div class="overlay">
+            
+            <div id="header">
+                <div class="container">
+                    <nav>
+                        <div class="logo">
+                            <a href="#home"><img src="images/Flixia logo.PNG" width="120"></a>
+                        </div>
+                        <ul id="sidemenu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a class="btn1 btn-login">Login</a></li>
+                        <i class="fas fa-times closeMenu"></i>
+                        </ul>
+                        <i class="fas fa-bars openMenu"></i>
+
+                        <div id="form-wrapper" class="form-wrapper1">
+
+                            <form class="form-content">
+                                <div class="imgcontainer">
+                                <span class="close">&times;</span>
+                                <img src="images/img_avatar2.png" alt="Avatar" class="avatar">
+                                </div>
+                    
+                                <div class="form-container">
+                                <label for="uname"><b>Username</b></label>
+                                <input type="email" placeholder="Email address" name="email" class="login" required>
+                    
+                                <label for="psw"><b>Password</b></label>
+                                <input type="password" placeholder="Enter Password" name="password" required>
+                                    
+                                <button type="submit" class="submit login-btn">Login</button>
+                                <label>
+                                    <input type="checkbox" checked="checked" name="remember"> Remember me
+                                </label>
+                                </div>
+                    
+                                <div class="form-end-container">
+                                    <button type="button" class="cancelbtn login-btn">Cancel</button>
+                                    <span class="frgt">Forgot <a href="#">password?</a></span>
+                                </div>
+                            </form>
+                    </div>
+                        <div class="color-switcher">
+                            <div class="switcher-btn">
+                                <i class="fa fa-cog"></i>
+                            </div>
+                            <h4>select color</h4>
+                            <div class="theme-buttons-container">
+                                <span class="theme-buttons" data-color="#27ae60" style="background:  #27ae60;"></span>
+                                <span class="theme-buttons" data-color="#063970" style="background:  #063970;"></span>
+                                <span class="theme-buttons" data-color="#924fa0" style="background:  #924fa0;"></span>
+                                <span class="theme-buttons" data-color="#f7bd4f" style="background:  #f7bd4f;"></span>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+            <!-- Hero section -->
+            <div id="home">
+                <div class="container">
+                    <div class="row-1">
+                        <div class="wrap-el">
+                            <h1 class="top-header">Unlimited movies, TV <br>shows, and more.</h1>
+                            <h2>Download anywhere. Watch anytime.</h2>
+                            <p class="top-description">Ready to watch? Enter your email to create or restart your membership.</p>
+                            <form>
+                                <input type="email" name="Email" placeholder="Email address" id="sign-up" required>
+                                <button type="submit" class="btn btn-get-started">Sign Up<i class="fas fa-paper-plane"></i></button>
+                            </form>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+            <!-- Hero section end -->
+        </div>
+    </div>
+    <!-- About Felixia -->
+    <div id="about-us">
+        <div class="container padder">
+            <div class="row">
+                <div class="about-col-1">
+                    <h2>Stream On Your TV</h2>
+                    <p class="description">Enjoy Your Favourite TV shows and Movies on 
+                    Smart TVs, Playstation, Xbox, Chromecast, Apple TV, Blu-ray players, and more.
+                    </p>
+                </div>
+                <div class="about-col-2">
+                    <img src="images/netflix-on-tv-removebg-preview.png" alt="tv">
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="about-col-2 reorderd-to-col-2">
+                    <img src="images/mobile-0819-removebg-preview.png" alt="mobile app">
+                    <div class="card">
+                        <h4>Fear Files</h4>
+                        <h5>Downloading... <i class="fa fa-download"></i></h5>
+                    </div>
+                </div>
+                <div class="about-col-1 reorderd-to-col-1">
+                    <h2>Download your shows to watch offline.</h2>
+                    <p class="description">
+                        With Flixia you can save your favorites easily and always have something to watch.
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="row">
+                <div class="about-col-1">
+                    <h2>Create varying profiles.</h2>
+                    <p class="description">
+                        Send everyone be it adult or kids, on mesmerizing adventures with their favorite characters in a 
+                        space made just for them—free with your membership.
+                    </p>
+                </div>
+                <div class="about-col-2">
+                    <img src="images/bg-img-removebg-preview.png" alt="mobile app">
+                </div>
+            </div>
+            <hr>
+        </div>
+    </div>
+
+    <!-- About felixi end -->
+    
+    <!-- FAQ Section -->
+    <div id="faq">
+        <div class="container">
+            <div class="row-1 faq-row">
+                <h1>Frequently <span>Asked</span> Questions</h1>
+                <div class="accordion">
+                    <div class="accordion-question">
+                      <p>What is Flixia?</p>
+                
+                    </div>
+                    <div class="accordion-answer">
+                      <p>
+                        Flixia is a streaming service that offers a wide variety of award-winning TV shows, movies, anime,
+                         documentaries, and more on thousands of internet-connected devices.
+
+                        You can watch as much as you want, whenever you want without a single commercial –
+                        all for one low monthly price. There's always something new to discover and 
+                        new TV shows and movies are added every week!
+                      </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-question">
+                      <p>How much does Flixia cost?</p>
+                
+                    </div>
+                    <div class="accordion-answer">
+                      <p>
+                        Watch Netflix on your smartphone, tablet, Smart TV, laptop, or streaming device, all for one fixed monthly fee. 
+                        Plans range from ₦1,200 to ₦4,400 a month. No extra costs, no contracts.
+                      </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-question">
+                      <p>Where can I watch?</p>
+                
+                    </div>
+                    <div class="accordion-answer">
+                      <p>
+                        Watch anywhere, anytime. Sign in with your flixia account to watch instantly on the web at flixia.com 
+                        from your personal computer or on any internet-connected device that offers the Flixia app, including smart TVs, smartphones, tablets, streaming media players and game consoles.
+
+                        You can also download your favorite shows with the iOS, Android, or Windows 10 app. Use downloads
+                        to watch while you're on the go and without an internet connection. Take Flixia with you anywhere.
+                      </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-question">
+                      <p>What can I watch on Flixia?</p>
+                
+                    </div>
+                    <div class="accordion-answer">
+                      <p>
+                        Flixia has an extensive library of feature films, documentaries, TV shows, anime, 
+                        award-winning Flixia originals, and more. Watch as much as you want, anytime you want.
+                      </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-question">
+                      <p>Is Flixia good for kids?</p>
+                    </div>
+                    <div class="accordion-answer">
+                      <p>
+                        The Flixia Kids experience is included in your membership to give parents control while kids 
+                        enjoy family-friendly TV shows and movies in their own space.
+
+                    Kids profiles come with PIN-protected parental controls that let you restrict the 
+                    maturity rating of content kids can watch and block specific titles you don’t want kids to see.
+                      </p>
+                    </div>
+                </div>
+                <div class="accordion">
+                    <div class="accordion-question">
+                      <p>How can I cancel?</p>
+                    </div>
+                    <div class="accordion-answer">
+                      <p>
+                        Flixia is flexible. There are no pesky contracts and no commitments. 
+                        You can easily cancel your account online in two clicks.There are no cancellation fees – 
+                        start or stop your account anytime.
+                      </p>
+                    </div>
+                </div>
+                <p class="top-description top-description2">Ready to watch? Enter your email to create or restart your membership.</p>
+                        <form>
+                            <input type="email" name="Email" placeholder="Email address" id="sign-up" required>
+                            <button type="submit" class="btn btn-get-started">Get Started<i class="fas fa-paper-plane"></i></button>
+                        </form>
+            </div>
+        </div>
+    </div>
+    <!-- FAQ Section End -->
+    <!-- Footer -->
+    <div id="footer">
+        <div class="container">
+            <div class="row wrapper">
+                <div class=" col-1 logo">
+                    <a href="#home"><img src="images/Flixia logo.PNG" width="120"></a>
+                    <p>help@flixia.com<i class="fas fa-paper-plane"></i></p>
+                </div>
+                <div class="col-2">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#faq">FAQ</a></li>
+                        <li><a href="#about-us">What We Do</a></li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <ul>
+                        <li><a href="#">Career</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-4">
+                    <ul>
+                        <li><a href="#">Account</a></li>
+                        <li><a href="#">Ways to Watch</a></li>
+                        <li><a href="#">Help Center</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+</body>
+<script src="test.js"></script>
+</html>
