@@ -15,10 +15,14 @@ html {
     scroll-behavior: smooth;
   }
 
+html, body{
+    width: 100%;
+    overflow-x: hidden;
+}
+
 body{
   font-family: 'Poppins', sans-serif;
-  /*background: #fff;
-  color: #080808;*/
+    position: relative;
 }
 
 .banner{
@@ -691,6 +695,13 @@ span.frgt a{
     }
     .cancelbtn {
        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 234px) {
+    .row-1{
+        overflow-x: hidden;
     }
 }
 
